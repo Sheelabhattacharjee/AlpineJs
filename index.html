@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpine Js</title>
+    <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -38,8 +39,8 @@
         <span style="color: #2d3441">Components</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="15"
-          height="15"
+          width="18"
+          height="18"
           fill="currentColor"
           class="bi bi-github"
           viewBox="0 0 16 16"
@@ -70,9 +71,27 @@
               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
             />
           </svg>
-          
+
         </div>
       </div>
+      </div>
+    <div class="codebox">
+        <code class="whitespace-pre">&lt;script src="//unpkg.com/alpinejs" defer&gt;&lt;/script&gt;</code>
+        <code class="whitespace-pre">&nbsp;</code>
+        <code class="whitespace-pre"></code>
+        <code class="whitespace-pre">&lt;div x-data="{ open: false }"&gt;</code>
+        <code class="whitespace-pre">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button @click="open = true"&gt;Expand&lt;/button&gt;</code>
+        <code class="whitespace-pre">&nbsp;</code>
+        <code class="whitespace-pre">&nbsp;&nbsp;&nbsp;&nbsp;&lt;span x-show="open"&gt;</code>
+        <code class="whitespace-pre">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content...</code>
+        <code class="whitespace-pre">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/span&gt;</code>
+        <code class="whitespace-pre">&lt;/div&gt;</code>
     </div>
+    <div class="nextheading">
+        <h2>Simple.</h2>
+        <h2>Lightweight.</h2>
+        <h2>Powerfull as hell.</h2>
+    </div>
+
   </body>
 </html>
